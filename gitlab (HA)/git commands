@@ -1,0 +1,49 @@
+# Git Commands
+
+# 1. Configure Git
+git config --global user.name "Your Name"
+git config --global user.email "youremail"
+
+# 2. Initialize repository
+git init
+
+# 3. Stage files
+git add filename      # single file
+git add .             # all files (ignores .gitignore)
+
+# 4. Commit changes
+git commit             # opens editor for message
+git commit -a          # stage & commit all tracked
+git commit -am "msg"   # stage, commit & message in one
+
+# 5. View history
+git log
+git diff HEAD HEAD~    # compare last two commits
+
+# 6. Undo / revert
+git reset HEAD~        # remove last commit
+git revert HEAD        # create commit that undoes last commit
+
+# 7. Branching
+git branch branchname           # create branch
+git checkout branchname         # switch branch
+git checkout -b branchname      # create + switch
+git merge branchname            # merge branch into current
+
+# 8. Remote repositories
+git remote add origin <url>
+git push -u origin main
+git push
+git pull
+git clone <url>
+
+# 9. Conflict markers (manual merge)
+# <<<<<<< HEAD
+# Local changes
+# =======
+# Remote changes
+# >>>>>>> commit-id
+
+# 10. Ignore files
+# Add .gitignore file with patterns
+
