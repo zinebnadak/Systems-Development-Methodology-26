@@ -1,0 +1,40 @@
+Use Cases
+
+Q1: Why can text-based requirements and designs be problematic?
+A1: They can be exact and complete but often become complex and hard to understand.
+
+Q2: How do diagrams help in requirements and system design?
+A2: Use symbols and abstraction to show requirements, functionality, and relationships clearly.
+
+Q3: What is Astah and why is it used?
+A3: A UML tool for diagramming requirements and design; supports various diagram types and acts as a “table of contents” for specifications.
+
+Q4: What is UML?
+A4: Unified Modeling Language; a standardized way to visualize system structure and behavior.
+
+Q5: What is a use case diagram?
+A5: Shows operations a user (actor) can perform; actors can be primary, secondary, humans, or systems.
+
+Q6: What are primary vs secondary users?
+A6: Primary: main user performing the use case.
+Secondary: other users helping complete the use case.
+
+Q7: How do actors and roles work?
+A7: One physical user can take on multiple roles; different actors represent different perspectives in the system.
+
+Q8: What are the key relationships between use cases?
+A8:
+- Include: B always occurs when A occurs (reusable functionality).
+- Extend: A sometimes adds functionality to B (alternative flows, exceptions).
+
+Q9: Practical tip for use case diagrams:
+A9: “If in doubt, leave it out” – keep diagrams simple and focused.
+
+Q10: Example scenario – how to apply a use case diagram:
+A10:
+- A medical expert system:
+- Registered user → virtual doctor → diagnosis.
+- If virtual doctor fails → video call with real doctor.
+
+Payment varies by insurance coverage.
+Diagram actors, primary/secondary users, and flows accordingly.

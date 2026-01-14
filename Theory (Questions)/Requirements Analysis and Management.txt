@@ -1,0 +1,21 @@
+Requirements Analysis and Management
+
+Q1: Why is requirements analysis critical?
+A1: It defines what the system must do; poor analysis → failed system.
+
+Q2: Who typically writes initial requirements and why is this risky?
+A2: Often non-technical stakeholders; can be incomplete or wrong.
+
+Q3: How should requirements be captured?
+A3: From multiple stakeholders using interviews, observation, scenarios; documented as text or diagrams.
+
+Q4: Why consider different viewpoints?
+A4: Users, indirect stakeholders, and domain constraints all affect requirements.
+
+Q5: Why is full specification impossible for large systems?
+A5: Requirements evolve as users interact with the system; new needs appear.
+
+Q6: Why do change requests occur?
+A6: System use reveals new needs, errors, or improvements; they are inevitable.
+
+
