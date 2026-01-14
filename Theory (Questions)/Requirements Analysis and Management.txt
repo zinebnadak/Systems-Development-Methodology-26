@@ -1,3 +1,7 @@
+Question prompt: Help me write some efficient and summary questions of this theory notes I took
+(in eng btw) and the answers to those questions. Mke them so that the Question (ex.Q1) and directly below the answer to that question (ex. A1)
+, include only the important and fundamental stuff
+
 Requirements Analysis and Management
 
 Q1: Why is requirements analysis critical?
